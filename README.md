@@ -80,6 +80,16 @@ python herramientas\red_citas.py C:\fallos\md -o red --top 40
 python herramientas\red_citas.py C:\fallos\md -o red --que-citan SL4299-2022
 ```
 
+## Para usarlo con Claude
+
+Clone el repositorio y abra Claude Code en esa carpeta. El archivo [CLAUDE.md](CLAUDE.md) le explica a Claude cómo instalar el motor, qué herramienta usar en cada caso y cómo verificar las citas.
+
+```powershell
+git clone https://github.com/ricardosapiens/jurisprudencia-colombia.git
+cd jurisprudencia-colombia
+powershell -ExecutionPolicy Bypass -File .\INSTALAR.ps1
+```
+
 ## Instalación (Windows 10 u 11)
 
 ```powershell
