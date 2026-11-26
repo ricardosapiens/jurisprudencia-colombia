@@ -1,0 +1,173 @@
+{
+  "nombre": "Pensión de vejez: semanas que no aparecen en la historia laboral por tener varios números de afiliación al ISS",
+  "desde": "2005-01-01",
+  "max_corte": 400,
+  "max_csj": 200,
+  "max_portal": 225,
+  "max_informe": 45,
+  "corte": [
+    "varios números de afiliación",
+    "dos números de afiliación",
+    "distintos números de afiliación",
+    "diferentes números de afiliación",
+    "otro número de afiliación",
+    "número de afiliación diferente",
+    "número de afiliación distinto",
+    "múltiples números de afiliación",
+    "doble número de afiliación",
+    "unificación de la historia laboral",
+    "unificar la historia laboral",
+    "inconsistencias en la historia laboral",
+    "corrección de la historia laboral",
+    "corrección de historia laboral",
+    "reconstrucción de la historia laboral",
+    "semanas no registradas en la historia laboral",
+    "no aparecen en la historia laboral",
+    "no figuran en la historia laboral",
+    "no se reflejan en la historia laboral",
+    "tarjetas de reseña",
+    "tarjeta de reseña",
+    "microfichas",
+    "número patronal",
+    "deber de custodia de la historia laboral",
+    "guarda y custodia de la historia laboral",
+    "habeas data en materia pensional",
+    "errores en la historia laboral",
+    "historia laboral incompleta"
+  ],
+  "csj": [
+    [
+      "historia laboral",
+      "números de afiliación"
+    ],
+    [
+      "historia laboral",
+      "número de afiliación",
+      "pensión de vejez"
+    ],
+    [
+      "historia laboral",
+      "tarjetas de reseña"
+    ],
+    [
+      "historia laboral",
+      "microfichas",
+      "pensión de vejez"
+    ],
+    [
+      "corrección de la historia laboral",
+      "Instituto de Seguros Sociales",
+      "pensión de vejez"
+    ],
+    [
+      "inconsistencias en la historia laboral",
+      "número de afiliación"
+    ],
+    [
+      "historia laboral",
+      "número patronal",
+      "pensión de vejez"
+    ],
+    [
+      "unificación de la historia laboral"
+    ]
+  ],
+  "portal": [
+    [
+      "historia laboral",
+      "números de afiliación",
+      "pensión de vejez"
+    ],
+    [
+      "historia laboral",
+      "dos números de afiliación"
+    ],
+    [
+      "historia laboral",
+      "varios números de afiliación"
+    ],
+    [
+      "historia laboral",
+      "otro número de afiliación",
+      "Colpensiones"
+    ],
+    [
+      "corrección de historia laboral",
+      "número de afiliación",
+      "Seguros Sociales"
+    ],
+    [
+      "historia laboral",
+      "tarjetas de reseña",
+      "pensión de vejez"
+    ],
+    [
+      "historia laboral",
+      "microfichas",
+      "Colpensiones",
+      "pensión de vejez"
+    ],
+    [
+      "unificación de historia laboral",
+      "número de afiliación"
+    ],
+    [
+      "historia laboral",
+      "número patronal",
+      "pensión de vejez",
+      "Colpensiones"
+    ],
+    [
+      "acción de tutela",
+      "historia laboral",
+      "número de afiliación",
+      "semanas"
+    ]
+  ],
+  "obligatorias": [
+    "historia laboral",
+    "número de afiliación",
+    "números de afiliación"
+  ],
+  "puntaje": {
+    "números de afiliación": 8,
+    "número de afiliación": 5,
+    "dos números de afiliación": 6,
+    "varios números de afiliación": 6,
+    "otro número de afiliación": 6,
+    "unificación de la historia laboral": 6,
+    "unificar": 2,
+    "tarjeta de reseña": 5,
+    "tarjetas de reseña": 5,
+    "microfichas": 4,
+    "número patronal": 4,
+    "corrección de la historia laboral": 4,
+    "corrección de historia laboral": 4,
+    "inconsistencias en la historia laboral": 4,
+    "reconstrucción de la historia laboral": 4,
+    "deber de custodia": 3,
+    "habeas data": 2,
+    "historia laboral": 2,
+    "no aparecen": 2,
+    "no figuran": 2,
+    "no registradas": 2,
+    "Instituto de Seguros Sociales": 2,
+    "ISS": 1,
+    "pensión de vejez": 2,
+    "semanas cotizadas": 1,
+    "empleador": 1,
+    "carné de afiliación": 4,
+    "carnet de afiliación": 4,
+    "homónimo": 2,
+    "cédula": 1
+  },
+  "patrones": {
+    "(dos|tres|varios|distintos|diferentes|otro|nuevo|segundo|m[uú]ltiples|ambos|doble)\\s+n[uú]meros?\\s+de\\s+afiliaci[oó]n": 14,
+    "n[uú]meros?\\s+de\\s+afiliaci[oó]n\\s+(distint|diferent|anterior|antigu)": 12,
+    "su\\s+n[uú]mero\\s+de\\s+afiliaci[oó]n\\s+fue": 8,
+    "n[uú]meros?\\s+patronal(es)?": 6,
+    "(empleador|empresa)[^.]{0,120}no\\s+(figura|aparece|registra)": 5,
+    "no\\s+(figura|aparece|registra)[^.]{0,80}historia\\s+laboral": 5,
+    "tarjetas?\\s+de\\s+(rese[ñn]a|comprobaci[oó]n\\s+de\\s+derechos)": 6
+  }
+}

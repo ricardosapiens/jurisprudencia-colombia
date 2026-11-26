@@ -1,0 +1,10 @@
+# Datos reconstruibles y pesados (corte.sqlite ~340 MB)
+datos/
+corpus/
+# Datos personales: nunca a un repositorio público (Ley 1581 de 2012)
+casos/
+aprendizaje/casos.csv
+aprendizaje/lecciones.md
+red/
+__pycache__/
+*.tmp

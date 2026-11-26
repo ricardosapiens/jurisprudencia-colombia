@@ -1,0 +1,80 @@
+{
+  "nombre": "Retroactivo de la pensión de invalidez: desde la estructuración o desde la última incapacidad pagada",
+  "desde": "2010-01-01",
+  "max_corte": 400,
+  "max_csj": 150,
+  "max_casacion": 250,
+  "max_informe": 60,
+
+  "corte": [
+    "última incapacidad pagada",
+    "última incapacidad",
+    "expirar el derecho al mencionado subsidio",
+    "subsidio por incapacidad temporal",
+    "incapacidades efectivamente pagadas",
+    "efectivamente pagadas",
+    "efectos liberatorios",
+    "retroactivo de la pensión de invalidez",
+    "retroactivo pensional de invalidez",
+    "disfrute de la pensión de invalidez",
+    "disfrute de la primera mesada",
+    "desde la fecha de estructuración",
+    "SL5170-2021",
+    "SL 5170 de 2021",
+    "SL1562-2019",
+    "Auto 948 de 2025",
+    "SU-140 de 2026"
+  ],
+
+  "csj": [
+    ["retroactivo", "pensión de invalidez", "última incapacidad"],
+    ["SU-140 de 2026"],
+    ["SL5170-2021"],
+    ["retroactivo", "pensión de invalidez", "fecha de estructuración", "Colpensiones"]
+  ],
+
+  "casacion": [
+    ["pensión de invalidez", "última incapacidad"],
+    ["SL5170-2021"],
+    ["SL1562-2019", "incapacidad"],
+    ["fecha de estructuración", "subsidio por incapacidad", "retroactivo"],
+    ["incapacidades", "efectivamente pagadas", "pensión de invalidez"],
+    ["efectos liberatorios", "incapacidad"],
+    ["SU-140 de 2026"],
+    ["incapacidades discontinuas", "invalidez"]
+  ],
+
+  "obligatorias": ["invalidez"],
+
+  "puntaje": {
+    "última incapacidad": 5,
+    "última incapacidad pagada": 6,
+    "subsidio por incapacidad temporal": 4,
+    "expirar el derecho al mencionado subsidio": 6,
+    "efectivamente pagadas": 7,
+    "efectivamente pagada": 7,
+    "efectos liberatorios": 8,
+    "fecha de estructuración": 3,
+    "desde la fecha de estructuración": 5,
+    "retroactivo": 2,
+    "pensión de invalidez": 2,
+    "disfrute": 2,
+    "SL5170-2021": 6,
+    "SL 5170": 6,
+    "SL1562-2019": 5,
+    "SU-140 de 2026": 6,
+    "Auto 948": 6,
+    "T-160 de 2025": 4,
+    "Colpensiones": 1,
+    "doble pago": 3,
+    "incompatib": 3
+  },
+
+  "patrones": {
+    "incapacidad(es)?\\s+(que\\s+)?(no\\s+(fueron|fue|han\\s+sido)\\s+pagad|no\\s+pagad|impagad)": 9,
+    "(s[oó]lo|solamente|[uú]nicamente)\\s+(se\\s+)?(descuent|deduc)\\w*[^.]{0,80}incapacidad": 9,
+    "(descuent|deduc)\\w*[^.]{0,60}incapacidades?\\s+(efectivamente\\s+)?(pagad|reconocid|cancelad)": 8,
+    "continuos\\s+o\\s+discontinuos": 7,
+    "(rectific|recog|varia)\\w*[^.]{0,80}(SL\\s?5170|SL\\s?1562)": 7
+  }
+}

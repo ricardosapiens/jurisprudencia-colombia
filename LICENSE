@@ -1,0 +1,38 @@
+MIT License
+
+Copyright (c) 2026 ricardosapiens
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+
+Data and ideas from the R packages ccc and cccLLM
+
+The local database of the Colombian Constitutional Court built by
+herramientas/exportar_ccc.R and herramientas/construir_indice.py, and the
+citation-network approach used in herramientas/red_citas.py, come from the R
+packages ccc (https://github.com/acastroaraujo/ccc) and cccLLM
+(https://github.com/acastroaraujo/cccLLM), released under the MIT license:
+
+  ccc     YEAR: 2020  COPYRIGHT HOLDER: andrés castro araújo
+  cccLLM  YEAR: 2025  COPYRIGHT HOLDER: Andrés Castro Araújo
+
+This repository does not redistribute that data; the scripts rebuild it on
+each computer from the installed packages. Any copy of the rebuilt data must
+keep the copyright notice above.
